@@ -64,7 +64,7 @@ See [this screencast](https://d.pr/v/adp0tJ) for a demonstration of attaching a 
 
 No.  A CPU is a CPU and RAM is RAM.  Sid does not allocate _cheaper_, worse-performing hardware based on request size.  Additionally, running multiple jobs will not degrade performance.  Sid users can run up to eleven jobs without any performance degradation \(as each is allocated dedicated resources from AWS\).
 
-## How do I launch an app from the Sid Desktop?
+## How do I launch an app from the Sid Dashboard?
 
 When Sid has completed provisioning your desktop environment, a link to it will appear below `Access Url` in the dashboard:
 
