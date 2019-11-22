@@ -138,13 +138,19 @@ The [YUM package manager](http://yum.baseurl.org/) can list, query, and add addi
 
 ## How do I access my Google Drive files?
 
-For all applications, Sid mounts your Google Drive to the same location: `/mnt/google-drive`.  Each Sid application has their own semantics for navigating to this location.
+For all applications, Sid mounts your Google Drive to the same location: `/mnt/google-drive`.  Each Sid application has similar commands for navigating to this directory location.
 
-## Desktop
+### Desktop
 
+From [QTerminal](https://hmdc.gitbook.io/sid/faq#system-tools),[`cd`](http://linuxcommand.org/lc3_man_pages/cdh.html) to your Google Drive's mount point:
 
+![QTerminal supports basic POSIX commands](.gitbook/assets/screen-shot-2019-11-22-at-11.58.52-am.png)
 
-## RStudio
+Start your application \(e.g., [`R`](https://www.r-project.org/about.html)\) and access your Google Drive data files:
+
+![Run R language applications from your QTerminal](.gitbook/assets/screen-shot-2019-11-22-at-12.04.16-pm.png)
+
+### RStudio
 
 \`\`[`setwd`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/getwd.html) to the attached Google Drive:
 
@@ -154,7 +160,7 @@ Your Google Drive files are now visible from the `File`-&gt;`Open` menu:
 
 ![RStuduio Open File menu](.gitbook/assets/screen-shot-2019-11-22-at-11.53.18-am.png)
 
-## Jupyter
+### Jupyter
 
 [`cd`](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-cd) \(or [`%bookmark`](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-bookmark)\) to the mount point for your Google Drive:
 
