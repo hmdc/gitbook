@@ -156,7 +156,7 @@ Note: the [Sid Drive backend](https://rclone.org/drive/) configuration is not cu
 
 ### RStudio
 
-\`\`[`setwd`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/getwd.html) to the attached Google Drive:
+[`setwd`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/getwd.html) to the attached Google Drive:
 
 ![setwd to /mnt/google-drive](.gitbook/assets/screen-shot-2019-10-16-at-3.25.34-pm.png)
 
