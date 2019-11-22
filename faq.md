@@ -158,7 +158,7 @@ Google Drive in Sid does not currently support [symbolic links](http://man7.org/
 
 ### RStudio
 
-\`\`[`setwd`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/getwd.html) to the attached Google Drive:
+[`setwd`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/getwd.html) to the attached Google Drive:
 
 ![setwd to /mnt/google-drive](.gitbook/assets/screen-shot-2019-10-16-at-3.25.34-pm.png)
 
