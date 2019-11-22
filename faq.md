@@ -60,7 +60,7 @@ In the [job launcher](https://www.sid.hmdc.harvard.edu/vmSelectDedicated), selec
 
 [Screencast](https://d.pr/v/adp0tJ) for a demonstration of attaching a Google Drive to a Sid job:
 
-[![How to connect Google Drive to Sid Job](.gitbook/assets/screen-shot-2019-11-22-at-12.20.56-pm.png)](https://d.pr/v/adp0tJ)
+[![How to connect Google Drive to Sid Job](.gitbook/assets/screen-shot-2019-11-22-at-12.20.56-pm.png)](https://drive.google.com/a/harvard.edu/file/d/1rATyzrZh17xwjT_bkg88xQEKw_2v_45m/view?usp=sharing)
 
 ## Will requesting more resources slow my job's performance?
 
