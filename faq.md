@@ -58,7 +58,7 @@ In the [job launcher](https://www.sid.hmdc.harvard.edu/vmSelectDedicated), selec
 
 ![](.gitbook/assets/screen-shot-2019-11-08-at-2.07.40-pm.png)
 
-See [this screencast](https://d.pr/v/adp0tJ) for a demonstration of attaching a Google Drive to a Sid job.
+![Screencast for a demonstration of attaching a Google Drive to a Sid job.](.gitbook/assets/screen-shot-2019-11-22-at-12.20.56-pm.png)
 
 ## Will requesting more resources slow my job's performance?
 
