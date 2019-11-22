@@ -152,7 +152,9 @@ Start your application \(e.g., [`R`](https://www.r-project.org/about.html)\) and
 
 ![Run R language applications from your QTerminal](.gitbook/assets/screen-shot-2019-11-22-at-12.04.16-pm.png)
 
-Note: the [Sid Drive backend](https://rclone.org/drive/) configuration is not currently setup to support [symbolic links](http://man7.org/linux/man-pages/man1/ln.1.html).
+{% hint style="warning" %}
+Google Drive in Sid does not currently support [symbolic links](http://man7.org/linux/man-pages/man1/ln.1.html).
+{% endhint %}
 
 ### RStudio
 
