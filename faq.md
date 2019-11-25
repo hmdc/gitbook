@@ -184,3 +184,9 @@ From within a Julia Notebook,[`cd`](https://docs.julialang.org/en/v1/base/file/#
 
 ![cd to your Google Drive from the Jupyter Julia environment](.gitbook/assets/cd-pwd-readdir-injulian-notebook.png)
 
+#### R
+
+From within an R Notebook, [`setwd`](https://www.rdocumentation.org/packages/base/versions/3.6.1/topics/getwd) to the mount point for your Google Drive:
+
+![setwd to the mount point for your Google Drive](.gitbook/assets/setwd-read.csv--summary-in-jupyter-r.png)
+
