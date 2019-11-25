@@ -182,7 +182,7 @@ You are now in your Google Drive's working directory for reading data, e.g.,
 
 From within a Julia Notebook,[`cd`](https://docs.julialang.org/en/v1/base/file/#Base.Filesystem.cd-Tuple{AbstractString})to the mount point for your Google Drive:
 
-![cd to your Google Drive from the Jupyter Julia environment](.gitbook/assets/cd-pwd-readdir-injulian-notebook.png)
+![cd to the mount point for your Google Drive](.gitbook/assets/cd-readdir-csv.read__.png)
 
 #### R
 
