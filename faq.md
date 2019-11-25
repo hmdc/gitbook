@@ -168,11 +168,19 @@ Your Google Drive files are now visible from the `File`-&gt;`Open` menu:
 
 ### Jupyter
 
-[`cd`](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-cd) \(or [`%bookmark`](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-bookmark)\) to the mount point for your Google Drive:
+#### Python 3
+
+From within a Python Notebook,[`cd`](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-cd) \(or [`%bookmark`](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-bookmark)\) to the mount point for your Google Drive:
 
 ![cd or %bookmark your Google Drive from the Jupyter environment](.gitbook/assets/screen-shot-2019-11-21-at-3.32.07-pm.png)
 
 You are now in your Google Drive's working directory for reading data, e.g.,
 
 ![](.gitbook/assets/screen-shot-2019-11-21-at-3.32.19-pm-copy-2.png)
+
+#### Julia
+
+From within a Julia Notebook,[`cd`](https://docs.julialang.org/en/v1/base/file/#Base.Filesystem.cd-Tuple{AbstractString})to the mount point for your Google Drive:
+
+![cd to your Google Drive from the Jupyter Julia environment](.gitbook/assets/cd-pwd-readdir-injulian-notebook.png)
 
