@@ -212,5 +212,4 @@ Initialized empty Git repository in /Volumes/GoogleDrive/My Drive/my-repo/.git/
 
 [Screen cast](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2) showing Git + Google Drive workflow:
 
-![Screen cast showing Git + Google Drive workflow:](.gitbook/assets/screen-shot-2019-11-26-at-1.55.56-pm.png)
-
+[![Screen cast showing Git + Google Drive workflow:](.gitbook/assets/screen-shot-2019-11-26-at-1.55.56-pm.png)](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2)
