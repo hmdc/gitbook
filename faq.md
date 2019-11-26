@@ -190,3 +190,27 @@ From within an R Notebook, [`setwd`](https://www.rdocumentation.org/packages/bas
 
 ![setwd to the mount point for your Google Drive](.gitbook/assets/setwd-read.csv--summary-in-jupyter-r.png)
 
+## How do I manage my local Git repository in Google Drive?
+
+Are you sure you don't want to use GitHub like [36 million other git users](https://venturebeat.com/2019/05/23/github-adds-donation-button-token-scanning-and-enterprise-tools/)?  If not, open the directory of your Google Drive File Stream:
+
+![The folder icon in the Google Drive File Stream app points to your synced Google Drive](.gitbook/assets/git-in-google-drive.png)
+
+From inside your Google Drive directory, you can use standard `git` commands, and all of the git metadata in your repository will be synced in Google Drive, e.g.,
+
+```text
+/Volumes/GoogleDrive/My Drive/my-repo $ git init
+Initialized empty Git repository in /Volumes/GoogleDrive/My Drive/my-repo/.git/
+/Volumes/GoogleDrive/My Drive/my-repo $ echo 1 2 3 > foo.txt
+/Volumes/GoogleDrive/My Drive/my-repo $ git add foo.txt
+/Volumes/GoogleDrive/My Drive/my-repo $ git commit -m "Add foo.txt"
+[master c947c83] Add foo.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 foo.txt
+/Volumes/GoogleDrive/My Drive/my-repo $
+```
+
+[Screen cast](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2) showing Git + Google Drive workflow:
+
+![Screen cast showing Git + Google Drive workflow:](.gitbook/assets/screen-shot-2019-11-26-at-1.55.56-pm.png)
+
