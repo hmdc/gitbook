@@ -22,7 +22,7 @@ If you have a Harvard email, file a request ticket for Sid access in [the IQSS R
 
 ### Sign-in Through [Harvard Key](https://www.pin1.harvard.edu/cas/login?service=https%3A%2F%2Fwww.uat.sid.hmdc.harvard.edu%2Flogin)
 
-![Sign in through HarvardKey \(which was received in previous step\)](.gitbook/assets/screen-shot-2019-09-18-at-12.40.22-pm.png)
+![Sign in through HarvardKey \(which was received in previous step\).](.gitbook/assets/screen-shot-2019-09-18-at-12.40.22-pm.png)
 
 ### Launch an Interactive Application from [the Dashboard](https://www.uat.sid.hmdc.harvard.edu/#!/dashboard)
 

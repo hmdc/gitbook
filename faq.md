@@ -192,7 +192,7 @@ From within an R Notebook, [`setwd`](https://www.rdocumentation.org/packages/bas
 
 ## How do I manage my local Git repository in Google Drive?
 
-Are you sure you don't want to use GitHub like [36 million other git users](https://venturebeat.com/2019/05/23/github-adds-donation-button-token-scanning-and-enterprise-tools/)?  If not, open the directory of your Google Drive File Stream:
+Are you sure you don't want to use GitHub like [36 million other git users](https://venturebeat.com/2019/05/23/github-adds-donation-button-token-scanning-and-enterprise-tools/)? If not, open the directory of your Google Drive File Stream:
 
 ![The folder icon in the Google Drive File Stream app points to your synced Google Drive](.gitbook/assets/git-in-google-drive.png)
 
@@ -213,3 +213,4 @@ Initialized empty Git repository in /Volumes/GoogleDrive/My Drive/my-repo/.git/
 [Screen cast](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2) showing Git + Google Drive workflow:
 
 [![Screen cast showing Git + Google Drive workflow:](.gitbook/assets/screen-shot-2019-11-26-at-1.55.56-pm.png)](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2)
+
