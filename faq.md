@@ -142,6 +142,10 @@ The [YUM package manager](http://yum.baseurl.org/) can list, query, and add addi
 
 For all applications, Sid mounts your Google Drive to the same location: `/mnt/google-drive`. Each Sid application has similar commands for navigating to this directory location.
 
+{% hint style="warning" %}
+Google Drive in Sid does not currently support [symbolic links](http://man7.org/linux/man-pages/man1/ln.1.html).
+{% endhint %}
+
 ### Desktop
 
 From [QTerminal](https://hmdc.gitbook.io/sid/faq#system-tools),[`cd`](http://linuxcommand.org/lc3_man_pages/cdh.html) to your Google Drive's mount point:
@@ -152,9 +156,6 @@ Start your application \(e.g., [`R`](https://www.r-project.org/about.html)\) and
 
 ![Run R language applications from your QTerminal](.gitbook/assets/screen-shot-2019-11-22-at-12.04.16-pm.png)
 
-{% hint style="warning" %}
-Google Drive in Sid does not currently support [symbolic links](http://man7.org/linux/man-pages/man1/ln.1.html).
-{% endhint %}
 
 ### RStudio
 
