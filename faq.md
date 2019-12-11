@@ -156,7 +156,6 @@ Start your application \(e.g., [`R`](https://www.r-project.org/about.html)\) and
 
 ![Run R language applications from your QTerminal](.gitbook/assets/screen-shot-2019-11-22-at-12.04.16-pm.png)
 
-
 ### RStudio
 
 [`setwd`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/getwd.html) to the attached Google Drive:
@@ -214,4 +213,8 @@ Initialized empty Git repository in /Volumes/GoogleDrive/My Drive/my-repo/.git/
 [Screen cast](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2) showing Git + Google Drive workflow:
 
 [![Screen cast showing Git + Google Drive workflow:](.gitbook/assets/screen-shot-2019-11-26-at-1.55.56-pm.png)](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2)
+
+## Is Google Drive essentially a POSIX-compatible file system?
+
+[Google Drive in Sid](https://hmdc.gitbook.io/sid/faq#how-do-i-access-my-google-drive-files) is an [object storage](https://en.wikipedia.org/wiki/Object_storage) system synced by [rclone](https://rclone.org/) to resemble a file system, but it is lacking some features of a standard POSIX file system \(such as symbolic links\).
 
