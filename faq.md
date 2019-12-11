@@ -214,6 +214,9 @@ Initialized empty Git repository in /Volumes/GoogleDrive/My Drive/my-repo/.git/
 Warning: you can not run `git` commands of any kind on your Git/Drive repository from within Sid due to limitations of [rclone](https://rclone.org/).
 {% endhint %}
 
+{% hint style="warning" %}
+Google Drive File Stream will only connect to Google Drive accounts that are part of an enterprise G Suite (for example g.harvard.edu). If you need assistance with accessing Google Drive using some other method you can [contact us for support](mailto:support@help.hmdc.harvard.edu).
+{% endhint %}
 
 [Screen cast](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2) showing Git + Google Drive workflow:
 
