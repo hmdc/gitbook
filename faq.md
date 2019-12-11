@@ -190,9 +190,9 @@ From within an R Notebook, [`setwd`](https://www.rdocumentation.org/packages/bas
 
 ![setwd to the mount point for your Google Drive](.gitbook/assets/setwd-read.csv--summary-in-jupyter-r.png)
 
-## How do I manage my local Git repository in Google Drive?
+## How do I manage my Git repository in Google Drive?
 
-Are you sure you don't want to use GitHub like [36 million other git users](https://venturebeat.com/2019/05/23/github-adds-donation-button-token-scanning-and-enterprise-tools/)? If not, open the directory of your Google Drive File Stream:
+Are you sure you don't want to use a Git hosting provider such as [GitHub](http://github.com), [BitBucket](https://bitbucket.org/), or [BeanStalk](https://beanstalkapp.com/)? If not, open the directory of your Google Drive File Stream:
 
 ![The folder icon in the Google Drive File Stream app points to your synced Google Drive](.gitbook/assets/git-in-google-drive.png)
 
@@ -215,7 +215,7 @@ Warning: you can not run `git` commands of any kind on your Git/Drive repository
 {% endhint %}
 
 {% hint style="warning" %}
-Google Drive File Stream will only connect to Google Drive accounts that are part of an enterprise G Suite (for example g.harvard.edu). If you need assistance with accessing Google Drive using some other method you can [contact us for support](mailto:support@help.hmdc.harvard.edu).
+Google Drive File Stream will only connect to Google Drive accounts that are part of an enterprise G Suite \(for example g.harvard.edu\). If you need assistance with accessing Google Drive using some other method you can [contact us for support](mailto:support@help.hmdc.harvard.edu).
 {% endhint %}
 
 [Screen cast](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2) showing Git + Google Drive workflow:
