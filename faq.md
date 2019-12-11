@@ -216,5 +216,5 @@ Initialized empty Git repository in /Volumes/GoogleDrive/My Drive/my-repo/.git/
 
 ## Is Google Drive essentially a POSIX-compatible file system?
 
-[Google Drive in Sid](https://hmdc.gitbook.io/sid/faq#how-do-i-access-my-google-drive-files) is an [object storage](https://en.wikipedia.org/wiki/Object_storage) system synced by [rclone](https://rclone.org/) to resemble a file system, but it is lacking some features of a standard POSIX file system \(such as symbolic links\).
+[Google Drive in Sid](https://hmdc.gitbook.io/sid/faq#how-do-i-access-my-google-drive-files) is an [object storage](https://en.wikipedia.org/wiki/Object_storage) system synced by [rclone](https://rclone.org/) to resemble a file system, but it is lacking some features of a standard [POSIX](https://en.wikipedia.org/wiki/POSIX) [file system](https://en.wikipedia.org/wiki/File_system#Unix_and_Unix-like_operating_systems) \(such as [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link#POSIX_and_Unix-like_operating_systems) and [file permissions](https://en.wikipedia.org/wiki/File_system_permissions#Traditional_Unix_permissions)\).
 
