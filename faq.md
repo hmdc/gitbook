@@ -210,6 +210,11 @@ Initialized empty Git repository in /Volumes/GoogleDrive/My Drive/my-repo/.git/
 /Volumes/GoogleDrive/My Drive/my-repo $
 ```
 
+{% hint style="warning" %}
+Warning: you can not run `git` commands of any kind on your Git/Drive repository from within Sid due to limitations of [rclone](https://rclone.org/).
+{% endhint %}
+
+
 [Screen cast](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2) showing Git + Google Drive workflow:
 
 [![Screen cast showing Git + Google Drive workflow:](.gitbook/assets/screen-shot-2019-11-26-at-1.55.56-pm.png)](https://drive.google.com/a/harvard.edu/file/d/160zGjiOXAoKvTFNU-uLFPauUioGSueA2)
