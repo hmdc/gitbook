@@ -226,3 +226,57 @@ Google Drive File Stream will only connect to Google Drive accounts that are par
 
 [Google Drive in Sid](https://hmdc.gitbook.io/sid/faq#how-do-i-access-my-google-drive-files) is an [object storage](https://en.wikipedia.org/wiki/Object_storage) system synced by [rclone](https://rclone.org/) to resemble a file system, but it is lacking some features of a standard [POSIX](https://en.wikipedia.org/wiki/POSIX) [file system](https://en.wikipedia.org/wiki/File_system#Unix_and_Unix-like_operating_systems) \(such as [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link#POSIX_and_Unix-like_operating_systems) and [file permissions](https://en.wikipedia.org/wiki/File_system_permissions#Traditional_Unix_permissions)\).
 
+Because the features of Google Drive in Sid are not at parity with some POSIX file systems, you may encounter the following problems:
+
+### Unexpected File Modifications in Version Control
+
+On non-Google drive:
+
+```text
+$ git status
+Your branch is up to date with 'origin/master'.
+nothing to commit, working tree clean
+```
+
+The same directory used in Google Drive shows modifications to a file in Git:
+
+```text
+$ git status
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   foo
+```
+
+The above discrepancy is due to different handling of file permissions:
+
+Non-Google drive:
+
+`-rwxr-xr-x 1 jane staff 6991 Nov 25 17:04 foo`
+
+Google drive \(note the differing [file permissions](https://en.wikipedia.org/wiki/File_system_permissions#Traditional_Unix_permissions)\):
+
+`-rw------- 1 jane staff 6991 Nov 25 17:05 foo`
+
+### Un-runnable Scripts
+
+Google Drive can cause script to run into `bad interpreter: Permission denied` errors.  For example, the below code runs fine in `$HOME`:
+
+```text
+$ cat hello.sh
+!/usr/bin/bash
+echo "hello" 
+$ ./hello.sh 
+hello
+```
+
+The same code fails in Google Drive with `bad interpreter: Permission denied`:
+
+```text
+$ cat /mnt/google-drive/hello.sh
+#!/usr/bin/bash
+echo "hello"
+$ /mnt/google-drive/hello.sh
+sh: /mnt/google-drive/hello.sh: /usr/bin/bash: bad interpreter: Permission denied
+```
+
