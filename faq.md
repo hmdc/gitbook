@@ -230,7 +230,7 @@ Because the features of Google Drive in Sid are not at parity with some POSIX fi
 
 ### Unexpected File Modifications in Version Control
 
-On non-Google drive:
+File modifications between Git and Google Drive may disagree, so for example:
 
 ```text
 $ git status
@@ -248,7 +248,7 @@ Changes not staged for commit:
 	modified:   foo
 ```
 
-The above discrepancy is due to different handling of file permissions:
+The above discrepancy is due to the different handling of file permissions:
 
 Non-Google drive:
 
@@ -260,7 +260,7 @@ Google drive \(note the differing [file permissions](https://en.wikipedia.org/wi
 
 ### Un-runnable Scripts
 
-Google Drive can cause script to run into `bad interpreter: Permission denied` errors.  For example, the below code runs fine in `$HOME`:
+Running a script from Google Drive can cause `bad interpreter: Permission denied` errors.  For example, the below code runs fine in `$HOME`:
 
 ```text
 $ cat hello.sh
