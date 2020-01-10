@@ -258,9 +258,9 @@ Google drive \(note the differing [file permissions](https://en.wikipedia.org/wi
 
 `-rw------- 1 jane staff 6991 Nov 25 17:05 foo`
 
-### Un-runnable Scripts
+### Shebang Issues
 
-Running a script from Google Drive can cause `bad interpreter: Permission denied` errors.  For example, the below code runs fine in `$HOME`:
+Running a script containing a [shebang line](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) from your Google Drive directory can cause `bad interpreter: Permission denied` errors.  For example, the below code runs fine in `$HOME`:
 
 ```text
 $ cat hello.sh
@@ -278,5 +278,12 @@ $ cat /mnt/google-drive/hello.sh
 echo "hello"
 $ /mnt/google-drive/hello.sh
 sh: /mnt/google-drive/hello.sh: /usr/bin/bash: bad interpreter: Permission denied
+```
+
+One workaround is to invoke the shebang from the shell, instead of the [first line \(`#!` \)](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) of the script:
+
+```text
+$ bash /mnt/google-drive/hello.sh
+hello
 ```
 
