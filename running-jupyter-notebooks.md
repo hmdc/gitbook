@@ -4,7 +4,7 @@
 
 In all cases you need to start Sid
 
-* Goto [https://sid.hmdc.harvard.edu](https://sid.hmdc.harvard.edu)
+* In the browser go to [https://sid.hmdc.harvard.edu](https://sid.hmdc.harvard.edu)
 * Launch Sid
 * Click `Run An Interactive Application`
 
@@ -14,13 +14,13 @@ The basic steps for Python, R or Julia notebooks are the same:
 
 * Select Jupyter
 * Select Version
-* Click Google drive \(login if neccesary\)
+* Click Google drive \(login if necessary\)
 * Select CPU/RAM
 * Click `Launch Application`
 * Wait until URL is visible. The status will change from `Initializing to` \`Running\`\)
 * Click on the URL
 
-You can now create a Jupyiter notebook. 
+You can now create a Jupyter notebook. 
 
 Click on the  `New` button on th top right and select Julia, Python or R. 
 
