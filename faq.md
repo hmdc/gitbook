@@ -264,7 +264,7 @@ Running a script containing a [shebang line](https://en.wikipedia.org/wiki/Sheba
 
 ```text
 $ cat hello.sh
-!/usr/bin/bash
+#!/usr/bin/bash
 echo "hello" 
 $ ./hello.sh 
 hello
