@@ -196,7 +196,7 @@ Are you sure you don't want to use a Git hosting provider such as [GitHub](http:
 
 ![The folder icon in the Google Drive File Stream app points to your synced Google Drive](.gitbook/assets/git-in-google-drive.png)
 
-From inside your Google Drive directory, you can use standard `git` commands, and all of the git metadata in your repository will be synced in Google Drive, e.g.,
+From inside your Google Drive directory on your local computer, you can use standard `git` commands, and all of the git metadata in your repository will be synced in Google Drive, e.g.,
 
 ```text
 /Volumes/GoogleDrive/My Drive/my-repo $ git init
