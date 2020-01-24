@@ -40,7 +40,8 @@ rm -r /home/jovyan/work
 ln -s /mnt/google-drive /home/jovyan/google-drive
 ```
 
-* Close the tab with the Terminal
+* The first line removes the existing directory and the second line makes a link to google drive
+* Close the tab conaining the Terminal
 * In the overview google-drive is now available
 
 ## Installing Python libraries
@@ -77,18 +78,21 @@ pip install lxml
 
 Just as files on the ephemeral storage will be lost after deleting the container, so will the libraries need to be reinstalled for every container. To make things easier you can write a file that you can run to install the libraries you need.
 
+{% hint style="info" %}
+This is a different way than explained in the video tutorial. Working with `requirements.txt` is a more standard way of doing this.
+{% endhint %}
+
 ### Creating the script
 
 * Choose `New>Text File`
-* Write the script with all the lines needed for the installation
+* In text file write the names of the libraries you want to install. Write one library on each line.
 
 ```text
-pip install lxml
-# Add more lines if needed
-# pip install ....
+lxml
+
 ```
 
-* Choose `File>Save` and save the file, for example as: `install_libraries.txt.`
+* Choose `File>Save` and save the file as: `requirements.txt.`
 * Make sure it is saved on Google Drive
 * Close the Tab
 
@@ -96,15 +100,11 @@ pip install lxml
 
 * Open a terminal from Jupyter: `New > Terminal`
 * `cd` into the directory where you saved the file
-* run the command:
+* run the command the following command to install all the libraries:
 
 ```text
-bash ./install_libraries.txt
+pip install -r requirements.txt
 ```
-
-{% hint style="info" %}
-Setting file permissions is not possible in the Terminal for Google Drive \(`chmod` will not work\). Therefore we are running the script using the `bash` command and do not include `#!/bin/bash` in the script file
-{% endhint %}
 
 ## Using and installing R Libraries
 
