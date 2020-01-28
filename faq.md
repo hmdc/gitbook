@@ -12,6 +12,10 @@ No. Please use [Google Drive](http://drive.google.com) to transfer data into and
 
 Sid will support [classical batch-style processing](https://en.wikipedia.org/wiki/Batch_processing) in a [future release](https://github.com/hmdc/sid/issues?utf8=✓&q=is%3Aissue+is%3Aopen++batch). Currently, batch-style jobs can run indefinitely in the background _without user input_ within an [interactive job](https://www.sid.hmdc.harvard.edu/vmSelectDedicated).
 
+## How do I run a scheduled job?
+
+Scheduled jobs \(CRON type jobs\) are a special case of the above mentioned batch jobs. These jobs are currently not supported.
+
 ## How do I read a network file in R?
 
 Use the [`httr`](https://www.rdocumentation.org/packages/httr/versions/1.4.1) [`GET`](https://www.rdocumentation.org/packages/httr/versions/1.4.1/topics/GET) function, e.g.,
@@ -245,7 +249,7 @@ $ git status
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   foo
+    modified:   foo
 ```
 
 The above discrepancy is due to the different handling of file permissions:
@@ -260,7 +264,7 @@ Google drive \(note the differing [file permissions](https://en.wikipedia.org/wi
 
 ### Shebang Issues
 
-Running a script containing a [shebang line](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) from your Google Drive directory can cause `bad interpreter: Permission denied` errors.  For example, the below code runs fine in `$HOME`:
+Running a script containing a [shebang line](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) from your Google Drive directory can cause `bad interpreter: Permission denied` errors. For example, the below code runs fine in `$HOME`:
 
 ```text
 $ cat hello.sh
