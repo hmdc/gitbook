@@ -16,6 +16,8 @@ Sid will support [classical batch-style processing](https://en.wikipedia.org/wik
 
 Scheduled jobs \(CRON type jobs\) are a special case of the above mentioned batch jobs. These jobs are currently not supported.
 
+Alternatively, you could run cron jobs in Sid Desktop by first installing the cron daemon \(`sudo dnf -y install cronie`\) and then creating a crontab \(`crontab -e`\), but this will cease to operate when her Sid job is terminated.
+
 ## How do I read a network file in R?
 
 Use the [`httr`](https://www.rdocumentation.org/packages/httr/versions/1.4.1) [`GET`](https://www.rdocumentation.org/packages/httr/versions/1.4.1/topics/GET) function, e.g.,
