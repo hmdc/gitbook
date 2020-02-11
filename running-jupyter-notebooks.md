@@ -22,7 +22,9 @@ The basic steps for Python, R or Julia notebooks are the same:
 
 You can now create a Jupyter notebook. 
 
-Click on the  `New` button on th top right and select Julia, Python or R. 
+Click on the  `New` button on the top right and select Julia, Python or R. 
+
+[![Starting a Jupyter Notebook](.gitbook/assets/Starting%20a%20Jupyter%20Notebook.png)](https://drive.google.com/open?id=1-jW7whc5wOtHN4GM159VyXG4_-NsP4ZD)
 
 {% hint style="warning" %}
 At this moment you notebooks are saves on ephemeral storage. This means that when the container is deleted all the files will be lost. Store your files on Google Drive to save your work.
@@ -43,6 +45,8 @@ ln -s /mnt/google-drive /home/jovyan/google-drive
 * The first line removes the existing directory and the second line makes a link to google drive
 * Close the tab conaining the Terminal
 * In the overview google-drive is now available
+
+[![Jupyter Access to Google Drive](.gitbook/assets/Jupyter%20Access%20to%20Google%20Drive.png)](https://drive.google.com/open?id=1-dtYtqQZgpc8aI3e5_f06mKGOP2YyIB_)
 
 ## Installing Python libraries
 
@@ -74,6 +78,9 @@ In this case you need to install lxml using:
 pip install lxml
 ```
 
+[![Installing Python Modules in Jupyter](.gitbook/assets/Installing%20python%20modules%20in%20Jupyter.png)](https://drive.google.com/open?id=1S6STWYTd3r5J8wjPZOgDR0VOHLB9JSAA)
+
+
 ## Creating a script for installing Python libraries
 
 Just as files on the ephemeral storage will be lost after deleting the container, so will the libraries need to be reinstalled for every container. To make things easier you can write a file that you can run to install the libraries you need.
@@ -95,6 +102,8 @@ lxml
 * Choose `File>Save` and save the file as: `requirements.txt.`
 * Make sure it is saved on Google Drive
 * Close the Tab
+
+[![Create an install Script for Python moduls in Jupyter](.gitbook/assets/Create%20an%20install%20script.png)](https://drive.google.com/open?id=1RzqCegn7-QI9Swb3PEfmc0dWceQfAqOm)
 
 ### Running the script
 
