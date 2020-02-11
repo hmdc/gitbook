@@ -26,7 +26,7 @@ Click on the `New` button on the top right and select Julia, Python or R.
 
 **Video tutorial of these steps:**
 
-![Starting a Jupyter Notebook](.gitbook/assets/starting-a-jupyter-notebook.png)
+[![Starting a Jupyter Notebook](.gitbook/assets/Starting%20a%20Jupyter%20Notebook.png)](https://drive.google.com/open?id=1-jW7whc5wOtHN4GM159VyXG4_-NsP4ZD)
 
 {% hint style="warning" %}
 At this moment you notebooks are saves on ephemeral storage. This means that when the container is deleted all the files will be lost. Store your files on Google Drive to save your work.
@@ -50,7 +50,7 @@ ln -s /mnt/google-drive /home/jovyan/google-drive
 
 **Video tutorial of these steps:**
 
-![Jupyter - Access to Google Drive](.gitbook/assets/jupyter-access-to-google-drive.png)
+[![Jupyter Access to Google Drive](.gitbook/assets/Jupyter%20Access%20to%20Google%20Drive.png)](https://drive.google.com/open?id=1-dtYtqQZgpc8aI3e5_f06mKGOP2YyIB_)
 
 ## Installing Python libraries
 
@@ -83,7 +83,7 @@ pip install lxml
 
 **Video tutorial of these steps:**
 
-![Installing Python Modules in Jupyter](.gitbook/assets/installing-python-modules-in-jupyter.png)
+[![Installing Python Modules in Jupyter](.gitbook/assets/Installing%20python%20modules%20in%20Jupyter.png)](https://drive.google.com/open?id=1S6STWYTd3r5J8wjPZOgDR0VOHLB9JSAA)
 
 ## Creating a script for installing Python libraries
 
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 
 **Video tutorial of these steps:**
 
-![Create an install Script for Python modules in Jupyter](.gitbook/assets/create-an-install-script.png)
+[![Create an install Script for Python modules in Jupyter](.gitbook/assets/Create%20an%20install%20script.png)](https://drive.google.com/open?id=1RzqCegn7-QI9Swb3PEfmc0dWceQfAqOm)
 
 ## Using and installing R Libraries
 
