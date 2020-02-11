@@ -20,11 +20,13 @@ The basic steps for Python, R or Julia notebooks are the same:
 * Wait until URL is visible. The status will change from `Initializing to` \`Running\`\)
 * Click on the URL
 
-You can now create a Jupyter notebook. 
+You can now create a Jupyter notebook.
 
-Click on the  `New` button on the top right and select Julia, Python or R. 
+Click on the `New` button on the top right and select Julia, Python or R.
 
-[![Starting a Jupyter Notebook](.gitbook/assets/Starting%20a%20Jupyter%20Notebook.png)](https://drive.google.com/open?id=1-jW7whc5wOtHN4GM159VyXG4_-NsP4ZD)
+**Video tutorial of these steps:**
+
+![Starting a Jupyter Notebook](.gitbook/assets/starting-a-jupyter-notebook.png)
 
 {% hint style="warning" %}
 At this moment you notebooks are saves on ephemeral storage. This means that when the container is deleted all the files will be lost. Store your files on Google Drive to save your work.
@@ -46,7 +48,9 @@ ln -s /mnt/google-drive /home/jovyan/google-drive
 * Close the tab conaining the Terminal
 * In the overview google-drive is now available
 
-[![Jupyter Access to Google Drive](.gitbook/assets/Jupyter%20Access%20to%20Google%20Drive.png)](https://drive.google.com/open?id=1-dtYtqQZgpc8aI3e5_f06mKGOP2YyIB_)
+**Video tutorial of these steps:**
+
+![Jupyter - Access to Google Drive](.gitbook/assets/jupyter-access-to-google-drive.png)
 
 ## Installing Python libraries
 
@@ -69,7 +73,6 @@ ModuleNotFoundError                      Traceback (most recent call last)
       3 events_html = html.fromstring(events0.text)
 
 ModuleNotFoundError: No module named 'lxml'
-
 ```
 
 In this case you need to install lxml using:
@@ -78,8 +81,9 @@ In this case you need to install lxml using:
 pip install lxml
 ```
 
-[![Installing Python Modules in Jupyter](.gitbook/assets/Installing%20python%20modules%20in%20Jupyter.png)](https://drive.google.com/open?id=1S6STWYTd3r5J8wjPZOgDR0VOHLB9JSAA)
+**Video tutorial of these steps:**
 
+![Installing Python Modules in Jupyter](.gitbook/assets/installing-python-modules-in-jupyter.png)
 
 ## Creating a script for installing Python libraries
 
@@ -96,14 +100,11 @@ This is a different way than explained in the video tutorial. Working with `requ
 
 ```text
 lxml
-
 ```
 
 * Choose `File>Save` and save the file as: `requirements.txt.`
 * Make sure it is saved on Google Drive
 * Close the Tab
-
-[![Create an install Script for Python moduls in Jupyter](.gitbook/assets/Create%20an%20install%20script.png)](https://drive.google.com/open?id=1RzqCegn7-QI9Swb3PEfmc0dWceQfAqOm)
 
 ### Running the script
 
@@ -115,6 +116,10 @@ lxml
 pip install -r requirements.txt
 ```
 
+**Video tutorial of these steps:**
+
+![Create an install Script for Python modules in Jupyter](.gitbook/assets/create-an-install-script.png)
+
 ## Using and installing R Libraries
 
 Installing R libraries in Jupyter is easy. Using libraries you add the library command in the notebook cells:
@@ -124,7 +129,7 @@ library(tidyverse)
 library(gridExtra)
 ```
 
-If a library is not available and get an error like this. In this case the \`dslabs\`  library is missing:
+If a library is not available and get an error like this. In this case the \`dslabs\` library is missing:
 
 ```text
 Error in library(dslabs): there is no package called ‘dslabs’
