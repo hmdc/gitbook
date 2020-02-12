@@ -15,7 +15,7 @@ In all cases you need to start Sid
 * Click Google drive \(login if necessary\)
 * Select CPU/RAM
 * Click `Launch Application`
-* Wait until URL is visible. The status will change from `Initializing to` \`Running\`\)
+* Wait until URL is visible. The status will change from `Initializing` to `Running`
 * Click on the URL
 
 You can now create a RStudio Project.
