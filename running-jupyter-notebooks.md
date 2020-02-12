@@ -17,7 +17,7 @@ The basic steps for Python, R or Julia notebooks are the same:
 * Click Google drive \(login if necessary\)
 * Select CPU/RAM
 * Click `Launch Application`
-* Wait until URL is visible. The status will change from `Initializing to` \`Running\`\)
+* Wait until URL is visible. The status will change from `Initializing` to `Running`.
 * Click on the URL
 
 You can now create a Jupyter notebook.
