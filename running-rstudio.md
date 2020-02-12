@@ -82,3 +82,5 @@ To install additional system libraries, use the R function `system()` to run `su
 system("sudo apt-get update")
 system("sudo apt-get install -y libxml2-dev")
 ```
+
+If you are comfortable with programming external service calls, you can also use the https://sysreqs.r-hub.io/ service to automatically detect which system libraries are needed. ([example](https://github.com/hmdc/heroku-docker-r/blob/master/findSystemDependencies.sh))
