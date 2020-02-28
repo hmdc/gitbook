@@ -34,23 +34,7 @@ At this moment you notebooks are saves on ephemeral storage. This means that whe
 
 ## Accessing Google Drive
 
-If you want to access google drive you need to to a couple of steps:
-
-* Choose `New>Terminal`
-* Run the following commands:
-
-```bash
-rm -r /home/jovyan/work
-ln -s /mnt/google-drive /home/jovyan/google-drive
-```
-
-* The first line removes the existing directory and the second line makes a link to google drive
-* Close the tab conaining the Terminal
-* In the overview google-drive is now available
-
-**Video tutorial of these steps:**
-
-[![Jupyter Access to Google Drive](.gitbook/assets/Jupyter%20Access%20to%20Google%20Drive.png)](https://drive.google.com/open?id=1-dtYtqQZgpc8aI3e5_f06mKGOP2YyIB_)
+If you selected Google Drive as your storage provider when running a Jupyter notebook on Sid, the ```google-drive``` folder will be available in the default location as a subfolder of Jupyter's home directory. You should see the ```google-drive``` immediately upon accessing your job via the Sid-produced job url.
 
 ## Installing Python libraries
 

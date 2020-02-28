@@ -27,16 +27,8 @@ Your RStudio home directory is on ephemeral storage. This means that when the co
 
 ## Accessing Google Drive
 
-If you want to access google drive you need to to a couple of steps:
-
-* Choose the **Terminal** tab
-* Run the following command:
-
-```bash
-ln -s /mnt/google-drive $HOME
-```
-
-* In the File Browser pane, google-drive is now available
+Upon launching RStudio, your Google drive will be accessible from the file browser
+pane, located in the lower, right-hand corner of the window.
 
 ## Installing and Using R Libraries
 
