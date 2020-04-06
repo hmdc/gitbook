@@ -293,3 +293,23 @@ $ bash /mnt/google-drive/hello.sh
 hello
 ```
 
+## How do I use rJava in Sid RStudio?
+
+Install the requisite system library packages, install rJava, and run javareconf:
+
+```R
+system('sudo apt-get update')
+system('sudo apt-get -y install default-jre default-jdk libpcre3-dev liblzma-dev libbz2-dev zlib1g-dev libicu-dev')
+install.packages('rJava')
+system('sudo R CMD javareconf')
+```
+
+Before you can use rJava, you need to restart R.
+
+To restart R in Rstudio, click the **Session** menu and select **Restart R**.
+
+Now you can use rJava:
+
+```R
+library('rJava')
+```
